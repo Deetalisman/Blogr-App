@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 30px 10% ;
+    background-image: url(img/bg-pattern-intro-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:tomato;
+    padding-bottom: 7%;
+    border-bottom-left-radius: 10%;
+    position: relative;
+}
+.head{
+    display: flex;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.head h1{
+    color: white;
+}
+.heading-left{
+    display: flex;
+    color: white;
+}
+
+.first-list{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.first-list li{
+    display: inline;
+    margin: 0 10px;
+}
+.first-list li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+#login{
+    border: 0;
+    background-color: transparent;
+    font-size: 17px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+#signup{
+    color: tomato;
+    background-color: white;
+    padding: 10px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+#signup:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.head-main{
+    text-align: center;
+    margin-top: 8%;
+}
+.head-main h1{
+    font-size: 40px;
+    color: white;
+}
+.head-main button{
+    margin-top: 19px;
+}
+.head-main p{
+    margin-top: 10px;
+    color: white;
+}
+#start{
+    color: tomato;
+    background-color: white;
+    padding: 10px 2px;
+    width: 110px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+#start:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+#learn{
+    color: white;
+    background-color: transparent;
+    padding: 10px 2px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#learn:hover{
+    background-color: white;
+    color: tomato;
+}
+.sub-list{
+    background-color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 230px;
+    display: none;
+    position: absolute;
+}
+.sub-list li{
+    display: block;
+    margin: 5px 5px;
+}
+.sub-list li a{
+    color: black;
+}
+.sub-list li a:hover{
+    font-weight: bold;
+}
+#connect:hover .sub-list{
+    display: block;
+}
+main{
+    margin-top: 20px;
+    color: rgb(88, 87, 87);
+}
+main img{
+    height: 600px;
+    float: right;
+    width: 600px;
+    margin-left: 8%;
+}
+.main-par{
+    display: flex;
+    margin-left: 10%;
+}
+.main-par1{
+    margin-top: 13%;
+    width: 50%;
+}
+.main-par1 p{
+    margin-top: 24px;
+    color: gray;
+}
+.robust{
+    margin-top: 7%;
+}
+.main-one{
+    font-size: 25px;
+    font-weight:550;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    letter-spacing: 3px;
+}
+.state{
+    display: flex;
+    padding: 0 10%;
+    margin-top: 5%;
+    background-image: url(img/bg-pattern-circles.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 430px;
+    background-color: rgb(58, 58, 79);
+    color: white;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+
+}
+.state-right{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.state-right p{
+    margin-top: 20px;
+}
+.free{
+    display: flex;
+    margin-top: 10%;
+}
+.free-left img{
+    width: 700px;
+}
+.free-right{
+    margin-top: 10%;
+    width: 35%;
+    color: gray;
+}
+.free-right h2{
+    color: rgb(88, 87, 87);
+
+}
+.free-right p{
+    margin-top: 20px;
+}
+.power{
+    margin-top: 10%;
+}
+.feet{
+    display: flex;
+    margin-top: 5%;
+    padding: 5% 15%;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(216, 215, 215);
+    border-top-right-radius: 19%;
+}
+.feet h3{
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+.feet p{
+    margin: 10px 0;
+    color: gray;
+    cursor: pointer;
+}
+@media screen and (max-width:1111px) {
+    .main-one{
+        font-size: 25px;
+        font-weight:550;
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        letter-spacing: 3px;
+    }
+    .main-par{
+        display: flex;
+        margin-left: 6%;
+    }
+    main img{
+        height: 500px;
+        float: right;
+        width: 500px;
+        margin-left: 3%;
+    }
+    .state{
+        padding: 0 5%;
+    }
+    .state-right{
+        margin-left: 5px;
+    }
+    .free-left img{
+        width: 600px;
+    }
+}
+@media screen and (max-width:900px) {
+    header{
+        padding: 30px 5% ;
+    }
+    .main-par{
+        display: flex;
+        margin-left: 0;
+    }
+    .main-one{
+        font-size: 25px;
+        font-weight:550;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        letter-spacing: 3px;
+    }
+    main img{
+        height: 380px;
+        float: right;
+        width: 400px;
+        margin-left: 3%;
+    }
+    .state{
+        padding: 0 ;
+    }
+    .state-right{
+        margin-left: 0;
+    }
+    .state-img img{
+        width: 440px;
+    }
+    .main-par1{
+        margin-top: 10%;
+        width: 60%;
+    }
+    .main-par1 h2{
+        font-size: 19px;
+    }
+    .head-main h1{
+        font-size: 33px;
+    }
+    .state-right h1{
+        font-size: 25px;
+    }
+    .free-left img{
+        width: 440px;
+    }
+    .free-right{
+        margin-top: 1%;
+    }
+    .free-right h2{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:700px) {
+    header{
+        position: relative;
+        padding: 30px 0;
+        height: 50vh;
+    }
+    .head{
+        width: 100%;
+    }
+    .head h1{
+        margin-left: 18px;
+    }
+    .heading{
+        display: block;
+        top: 22%;
+        background-color: white;
+        width: 90%;
+        margin: 0 5% 0;
+        position: absolute;
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .first-list{
+        width: 100%;
+        margin-left: 0;
+        padding: 0 30%;
+        border-bottom: 1px solid gray;
+    }
+    .first-list li{
+        display: block;
+        margin: 20px auto;
+    }
+    .first-list li a{
+        font-size: 20px;
+        color: black;
+    }
+    .heading-right{
+        width: 80%;
+        text-align: center;
+        margin: 12px auto;
+    }
+    .heading-right{
+        width: 100%;
+        margin: 30px 0;
+    }
+    #login{
+        width: 100%;
+        color: black;
+        font-size: 20px;
+    }
+    .sub-list{
+        margin-left:1px ;
+        position: absolute;
+        background-color: rgb(242, 237, 237);
+        width: 300px;
+        right: 7%;
+    }
+    #signup{
+        width: 40%;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: tomato;
+        color: white;
+    }
+    #signup:hover{
+        background-color: transparent;
+        color: black;
+        border: 1px solid tomato;
+    }
+    .ham{
+        cursor: pointer;
+        float: right;
+        margin-left: 75%;
+    }
+    .ham span{
+        background-color: rgb(248, 246, 246);
+        height: 6px;
+        width: 35px;
+        margin: 5px 0;
+        display: block;
+        border-radius: 3px;
+    }
+    .head-main{
+        margin-top: 20%;
+    }
+    .head-main h1{
+        font-size: 33px;
+    }
+    .main-one{
+        font-size: 25px;
+        font-weight:550;
+        position: absolute;
+        top: 60%;
+        left: 29%;
+    }
+    .main-par{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .main-par1{
+        width: 100%;
+        text-align: center;
+    }
+    .main-par1 h2{
+        width: 60%;
+        font-size: 25px;
+        margin: 0 auto;
+    }
+    .main-par1 p{
+        font-size: 18px;
+    }
+    .down{
+        margin-bottom: 6%;
+    }
+    .main-par img{
+        width: 100%;
+        height: 500px;
+    }
+    .state{
+        margin-top: 10%;
+        display: block;
+        height: 670px;
+        padding-bottom: 10px;
+    }
+    .state-right{
+        margin-top:0 ;
+        width: 85%;
+        margin: 0 7%;
+        text-align: center;
+    }
+    .state-img img{
+        width: 100%;
+    }
+    .free{
+        margin-top: 10%;
+        display: block;
+    }
+    .free-right{
+        width: 85%;
+        margin:10px 7%;
+        text-align: center;
+    }
+    .free-right h2{
+        font-size: 25px;
+    }
+    .free-left img{
+        width: 100%;
+    }
+    .feet{
+        display: block;
+        margin-top: 5%;
+        padding: 5% 5%;
+        text-align: center;
+        width: 100%;
+    }
+    .feet h1{
+        font-size: 40px;
+    }
+    .product{
+        margin: 20px 0;
+    }
+    .product h3{
+        margin-bottom: 5px;
+    }
+    .company{
+        margin: 20px 0;
+    }
+    .company h3{
+        margin-bottom: 5px;
+    }
+    .connect{
+        margin: 20px 0;
+    }
+    .connect h3{
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:600px) {
+    .ham{
+        margin-left: 70%;
+    }
+}
+@media screen and (max-width:500px) {
+    .ham{
+        margin-left: 63%;
+    }
+    .main-par img{
+        width: 100%;
+        height: 350px;
+    }
+    .main-one{
+        left: 13%;
+        top: 58%;
+    }
+}
